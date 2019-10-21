@@ -14,3 +14,8 @@ pytest==5.2.0
 
 # fetching datasets
 kaggle==1.5.1.1
+
+# pytest seems to have the package attrs as a dependency.
+# attrs==19.2.0 was released around 2019-10-01 17:00 UTC.
+# This seems to cause the problem above.
+attrs==19.1.0
