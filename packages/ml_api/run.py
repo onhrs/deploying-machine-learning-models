@@ -6,6 +6,5 @@ application = create_app(
     config_object=DevelopmentConfig)
 
 
-
 if __name__ == '__main__':
     application.run()
